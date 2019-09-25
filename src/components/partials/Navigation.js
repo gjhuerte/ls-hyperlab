@@ -11,9 +11,7 @@ class Navigation extends Component {
     state = {  }
     render() { 
         return ( 
-            <section 
-                id="navbar" 
-                className="flex justify-between content-center p-3">
+            <nav className="flex justify-between content-center p-3">
                 <div className="flex flex-1 items-center">
                     <a 
                         className="flex flex-1 flex-row justify-center"
@@ -95,7 +93,7 @@ class Navigation extends Component {
                         </li>
                     </ul>
                 </div>
-            </section>
+            </nav>
         );
     }
 }
