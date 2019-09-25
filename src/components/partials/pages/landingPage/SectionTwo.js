@@ -10,15 +10,15 @@ class SectionTwo extends Component {
                 className="flex w-full mt-10"
                 id="section-2">
                 <div
-                    className="flex-1"
+                    className="sm:block hidden flex-1 visible"
                     id="section-2__banner-image">
                     <img
                         alt="Meeting"
                         src="https://images.unsplash.com/photo-1531270279937-aca3e712ad01?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80"
-                        className="object-cover" />
+                        className="object-cover h-full w-full" />
                 </div>
                 <div
-                    className="flex-1 ml-4"
+                    className="flex-1 ml-4 mr-10"
                     id="section-2__text">
                     <h4 className="text-teal-700 font-bold">Brand Authenticity</h4>
                     <h1 className="font-semibold text-4xl">

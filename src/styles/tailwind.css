@@ -11391,6 +11391,11 @@ video {
   z-index: auto;
 }
 
+.smooth-transition {
+  -webkit-transition: visibility 0s, opacity 0.5s linear;
+  transition: visibility 0s, opacity 0.5s linear;
+}
+
 @media (min-width: 640px) {
   .sm\:sr-only {
     position: absolute;

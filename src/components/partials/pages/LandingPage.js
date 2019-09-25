@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import SectionOne from './index/SectionOne';
-import SectionTwo from './index/SectionTwo';
-import SectionThree from './index/SectionThree';
+import SectionOne from './landingPage/SectionOne';
+import SectionTwo from './landingPage/SectionTwo';
+import SectionThree from './landingPage/SectionThree';
 
 class LandingPage extends Component {
     state = {  }

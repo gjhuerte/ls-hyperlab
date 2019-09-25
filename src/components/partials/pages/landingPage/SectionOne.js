@@ -8,7 +8,7 @@ class SectionOne extends Component {
                 className="flex flex-row w-full" 
                 id="section-1">
                 <div
-                    className="flex-1 justify-start pt-10 pl-20" 
+                    className="flex-1 justify-start pt-10 pl-10 pr-10" 
                     id="section-1__text-section">
                     <h4 className="text-teal-600 text-md font-bold">Why Journal</h4>
                     <h1 className="text-5xl font-extrabold">Visual Storytelling Platform for You</h1>
@@ -24,7 +24,7 @@ class SectionOne extends Component {
                 </div>
 
                 <div
-                    className="flex-1" 
+                    className="flex-1 xs:hidden sm:visible" 
                     id="section-1__image-display">
                     <img 
                         className="h-full w-full object-cover"
