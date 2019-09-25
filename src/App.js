@@ -7,8 +7,10 @@ function App() {
     <React.Profiler
       id="base-layout"
       onRender={() => {}}>
-      <Navigation />
-      <LandingPage />
+        <div className="container mx-auto">
+          <Navigation />
+          <LandingPage />
+        </div>
     </React.Profiler>
   );
 }

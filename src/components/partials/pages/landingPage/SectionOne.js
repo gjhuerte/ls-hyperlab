@@ -24,7 +24,7 @@ class SectionOne extends Component {
                 </div>
 
                 <div
-                    className="flex-1 xs:hidden sm:visible" 
+                    className="block hidden sm:flex sm:flex-1 sm:visible" 
                     id="section-1__image-display">
                     <img 
                         className="h-full w-full object-cover"

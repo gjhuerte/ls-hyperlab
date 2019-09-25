@@ -1,6 +1,4 @@
 import React, { Component } from 'react';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faPlusCircle } from '@fortawesome/free-solid-svg-icons';
 
 class SectionTwo extends Component {
     state = {  }
@@ -18,7 +16,7 @@ class SectionTwo extends Component {
                         className="object-cover h-full w-full" />
                 </div>
                 <div
-                    className="flex-1 ml-4 mr-10"
+                    className="flex-1 ml-10 mr-10 sm:ml-20 sm:mr-20"
                     id="section-2__text">
                     <h4 className="text-teal-700 font-bold">Brand Authenticity</h4>
                     <h1 className="font-semibold text-4xl">
@@ -36,16 +34,11 @@ class SectionTwo extends Component {
                     </p>
 
                     <div className="flex flex-row justify-start">
-                        <div className="flex-initial flex flex-row">
+                        <div className="flex-initial">
                             <img
                                 alt="Profile"
                                 src="https://images.pexels.com/photos/34667/person-human-male-man.jpg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
-                                className="object-cover h-12 w-auto" />
-                            <FontAwesomeIcon
-                                icon={faPlusCircle}
-                                color="white"
-                                className="text-teal-700 fill-current -ml-4 mt-8"
-                            />
+                                className="object-cover rounded-full h-10 w-10" />
                         </div>
 
                         <div className="flex-initial ml-2">
